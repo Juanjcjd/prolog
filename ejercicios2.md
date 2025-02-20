@@ -1,3 +1,4 @@
+```lisp
 (print (list "Resultado 9:" (caar (cadr (cadr '(((a) b) (c (d e)) f))))))
 (print (list "Resultado 10:" (caar (cadr (cadr (car '((1 (2 (3 4))) (5 6))))))))
 (print (list "Resultado 11:" (cadr (cadr (cadr '(((x) (y)) ((z) (w))))))))
